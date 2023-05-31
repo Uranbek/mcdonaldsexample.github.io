@@ -1,1 +1,1 @@
-# mcdonaldsexample.github.io
+# mcdonaldsexample
