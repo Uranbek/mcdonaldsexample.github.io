@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+    padding: 0;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));
+  }
+
+.menu_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.menu_item {
+  background-color: WHITE;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+.menu_item img {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.menu_item p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.menu_item button {
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: orange;
+}
+
+.menu_item button:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
